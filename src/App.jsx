@@ -18,8 +18,8 @@ function App() {
       </div>
       <h1>MI449 Lab 9.5</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => setCount((count) => count + 5)}>
+          click to increase count by 5: {count}
         </button>
         <p>
           I love MI449!!
